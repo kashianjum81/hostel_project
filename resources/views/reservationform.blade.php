@@ -92,7 +92,6 @@
     <?php
     $selectedroom = App\Models\Room::latest()->first();
     ?>
-    @include('confirmmodal')
     <section class="section contact-section" id="next">
         <div class="container">
             <div class="row">
@@ -158,8 +157,7 @@
 
                         <div class="row">
                             <div class="col-md-6 form-group">
-                                <input type="submit" value="Reserve Now" class="btn btn-primary text-white py-3 px-5 font-weight-bold"
-                                    data-toggle="modal" data-target="#exampleModalCenter" id="reserveButton">
+                                <input type="submit" value="Reserve Now" class="btn btn-primary text-white py-3 px-5 font-weight-bold" id="reserveButton">
                             </div>
                         </div>
                     </form>
